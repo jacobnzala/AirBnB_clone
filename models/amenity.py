@@ -1,8 +1,8 @@
 #!/usr/bin/python
-"""a  class Amenity"""
+""" class Amenity"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """to Represent Amenity"""
+    """Representation of Amenity"""
     name = ""
