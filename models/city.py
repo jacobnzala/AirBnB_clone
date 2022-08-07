@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
- class City which inherits from the BaseModel
+ class City that inherits from BaseModel
 """
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """ define City class """
+    """ defining City class """
     name = ""
     state_id = ""
